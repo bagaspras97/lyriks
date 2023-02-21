@@ -2,6 +2,10 @@
 module.exports = {
   content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
   theme: {
+    fontFamily: {
+      'raleway': ['Raleway'],
+      'body': ['"Open Sans"'],
+    },
     extend: {
       colors: {
         black: '#191624',
